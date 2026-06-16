@@ -69,6 +69,11 @@ See [ROADMAP.md](./ROADMAP.md) for planned iterations.
 
 See [docs/faq.md](./docs/faq.md) for project boundaries and common questions.
 
+## Sample Evaluation Report
+
+See [examples/evaluation-report.md](./examples/evaluation-report.md) for an example of how candidate loops can be compared and selected.
+
+
 ## Repository structure
 
 ```text
