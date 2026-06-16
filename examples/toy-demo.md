@@ -45,4 +45,4 @@ one task
 → selected candidate
 ```
 
-The next step is to add a simple evaluator that scores each candidate.
+The evaluator ranks candidates and recommends the highest-scoring option.
