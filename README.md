@@ -1,4 +1,5 @@
 # Tree of Loops
+**Status:** v0.2 conceptual scaffold with a minimal toy demo.
 
 > The next step after Loop Engineering is not a longer loop.  
 > It is a tree of loops.
