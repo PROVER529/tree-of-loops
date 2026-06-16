@@ -1,0 +1,50 @@
+# Evaluation rubric for Branch/Search Engineering
+
+version: 0.1
+
+hard_gates:
+  tests:
+    required: true
+    description: "All required tests must pass."
+  typecheck:
+    required: true
+    description: "The candidate must not introduce type errors."
+  lint:
+    required: true
+    description: "The candidate must pass lint or explain any exception."
+  public_api:
+    required: true
+    description: "Public API changes require explicit human approval."
+
+scored_metrics:
+  correctness:
+    weight: 0.35
+    description: "Does the patch solve the actual problem?"
+  minimality:
+    weight: 0.15
+    description: "Is the diff appropriately small for the task?"
+  maintainability:
+    weight: 0.20
+    description: "Does the patch reduce or preserve long-term readability?"
+  test_quality:
+    weight: 0.15
+    description: "Does the patch include or improve meaningful tests?"
+  risk:
+    weight: 0.15
+    description: "Does the patch avoid hidden coupling, broad rewrites, or fragile assumptions?"
+
+anti_patterns:
+  - "Passing visible tests by hardcoding behavior."
+  - "Large rewrites for small bugs without justification."
+  - "Changing tests to match broken behavior."
+  - "Adding retries or sleeps that hide race conditions."
+  - "Introducing new dependencies without clear need."
+  - "Optimizing diff size at the expense of correctness."
+
+human_review_required_when:
+  - "database migrations are changed"
+  - "authentication or authorization logic is changed"
+  - "payment or billing logic is changed"
+  - "public APIs are changed"
+  - "candidate branches disagree strongly"
+  - "all candidates pass tests but use different assumptions"
