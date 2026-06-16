@@ -73,6 +73,10 @@ See [docs/faq.md](./docs/faq.md) for project boundaries and common questions.
 
 See [examples/evaluation-report.md](./examples/evaluation-report.md) for an example of how candidate loops can be compared and selected.
 
+## Toy Demo
+
+See [examples/toy-demo.md](./examples/toy-demo.md) for a minimal demo that creates candidate loop folders.
+
 ## Repository structure
 
 ```text
