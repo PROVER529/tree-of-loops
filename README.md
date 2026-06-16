@@ -61,6 +61,10 @@ Coding has properties that make Branch/Search Engineering practical:
 
 This makes coding one of the first domains where a "tree of loops" can become a real engineering pattern rather than a metaphor.
 
+## Roadmap
+
+See [ROADMAP.md](./ROADMAP.md) for planned iterations.
+
 ## Repository structure
 
 ```text
