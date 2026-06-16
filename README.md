@@ -97,7 +97,8 @@ See [examples/toy-demo.md](./examples/toy-demo.md) for a minimal demo that creat
 │   └── evaluation-rubric.yaml
 ├── scripts/
 │   ├── create_candidate_worktrees.sh
-│   └── generate_demo_candidates.py
+│   ├── generate_demo_candidates.py
+│   └── evaluate_demo_candidates.py
 └── .github/
     └── workflows/
         └── validate-docs.yml
