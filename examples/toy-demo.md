@@ -7,10 +7,16 @@ It only creates candidate folders that represent isolated candidate loops.
 
 ## Run
 
-From the repository root:
+From the repository root, first generate candidate folders:
 
 ```bash
 python scripts/generate_demo_candidates.py
+```
+
+Then run the evaluator:
+
+```bash
+python scripts/evaluate_demo_candidates.py
 ```
 
 ## Output
