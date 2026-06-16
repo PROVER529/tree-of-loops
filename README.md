@@ -65,6 +65,10 @@ This makes coding one of the first domains where a "tree of loops" can become a 
 
 See [ROADMAP.md](./ROADMAP.md) for planned iterations.
 
+## FAQ
+
+See [docs/faq.md](./docs/faq.md) for project boundaries and common questions.
+
 ## Repository structure
 
 ```text
