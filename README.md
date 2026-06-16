@@ -73,18 +73,20 @@ See [docs/faq.md](./docs/faq.md) for project boundaries and common questions.
 
 See [examples/evaluation-report.md](./examples/evaluation-report.md) for an example of how candidate loops can be compared and selected.
 
-
 ## Repository structure
 
 ```text
 .
 ├── README.md
+├── ROADMAP.md
 ├── docs/
-│   └── beyond-loop-engineering.md
+│   ├── beyond-loop-engineering.md
+│   └── faq.md
 ├── architecture/
 │   └── tree-of-loops.md
 ├── examples/
-│   └── candidate-branches.md
+│   ├── candidate-branches.md
+│   └── evaluation-report.md
 ├── configs/
 │   └── evaluation-rubric.yaml
 ├── scripts/
