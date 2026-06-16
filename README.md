@@ -90,11 +90,13 @@ See [examples/toy-demo.md](./examples/toy-demo.md) for a minimal demo that creat
 │   └── tree-of-loops.md
 ├── examples/
 │   ├── candidate-branches.md
-│   └── evaluation-report.md
+│   ├── evaluation-report.md
+│   └── toy-demo.md
 ├── configs/
 │   └── evaluation-rubric.yaml
 ├── scripts/
-│   └── create_candidate_worktrees.sh
+│   ├── create_candidate_worktrees.sh
+│   └── generate_demo_candidates.py
 └── .github/
     └── workflows/
         └── validate-docs.yml
